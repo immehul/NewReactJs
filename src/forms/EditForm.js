@@ -1,5 +1,10 @@
 import React, { useState, useEffect } from 'react'
 
+/*
+	Author : MP
+	Date : 13/09/2020
+	Purpose : This file is used to create edit related function.
+*/
 const EditForm = props => {
 	
 	const [user, setUser ] = useState(props.currentUser)
